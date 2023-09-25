@@ -1,0 +1,13 @@
+<div class="container topSpace">
+<div class="row row-cols-1 row-cols-md-3 g-4">
+    <div class="col" *ngFor="let foodlist of foodList" (click)="navigate(foodlist)">
+      <div class="card h-100">
+        <div class="card-body">
+          <h5 class="card-title">{{foodlist}}</h5>
+          <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+      </div>
+    </div>
+    
+    </div>
+  </div>
